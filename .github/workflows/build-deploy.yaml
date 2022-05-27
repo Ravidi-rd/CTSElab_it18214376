@@ -28,4 +28,4 @@ jobs:
       context: .
       file: ./Dockerfile
       push: true
-      tags: ${{ secrets.DOCKER_USERNAME }}/sliit2022-ctselab:${{ github.sha }}
+      tags: ${{ secrets.DOCKER_USERNAME }}/sliit-2022-ctselab:${{ github.sha }}
